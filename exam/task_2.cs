@@ -16,7 +16,7 @@ int sum = CalculateSum(M, N);
 Console.WriteLine("Сумма натуральных чисел от {0} до {1}: {2}", M, N, sum);
 
 
-static int CalculateSum(int start, int end)
+int CalculateSum(int start, int end)
 {
     if (end < start)
         return 0;
